@@ -92,4 +92,5 @@ class CoinFlipGUI:
         else:
             # Stop flipping and show final result
             self.flipping = False
-            sel
+            self.show_result()
+            
